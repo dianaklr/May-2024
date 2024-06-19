@@ -1,0 +1,12 @@
+p{
+    color: cornflowerblue;
+}
+p.pink-text{
+    color: #a42a3f;
+}
+.font-size25{
+    font-size: 25px;
+}
+p#gold{
+    color: gold;
+}
