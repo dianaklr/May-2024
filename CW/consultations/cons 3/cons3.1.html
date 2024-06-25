@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .flex{
+            height: 50vh;
+            background-color: deepskyblue;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+
+        }
+        .card{
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: darkslategrey;
+        }
+        .card p{
+            margin: 5px 0;
+        }
+        div.card:hover{
+            transform: scale(1.1);
+            transition: 1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="card">
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+        </div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
+</body>
+</html>
