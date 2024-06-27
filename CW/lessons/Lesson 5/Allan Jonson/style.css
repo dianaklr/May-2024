@@ -39,9 +39,9 @@ header nav ul a:hover{
 header div{
     text-align: center;
 }
-
+/*--------------HOME------------------------------*/
 /*-------------------section----------------------*/
-section{
+.section-home{
     font-family: "Orbitron", sans-serif;
     height: 90vh;
     background-image: url(img.jpg);
@@ -55,15 +55,15 @@ section{
 .first-text{
     margin-top: 10vh;
 }
-section p{
+.section-home p{
     font-size: 20px;
 }
-section h1{
+.section-home h1{
     font-size: 100px;
     letter-spacing: 40px;
     margin: 10px 0;
 }
-section button{
+.section-home button{
     width: 200px;
     height: 40px;
     margin-top: 20px;
@@ -73,7 +73,7 @@ section button{
     border-radius: 4px;
     transition: 1s;
 }
-section button:hover{
+.section-home button:hover{
   transform: scale(1.1);
     transition: 1s;
 }
