@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    padding: 5vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    height: 30vh;
+    align-items: center;
+    font-size: 54px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 850px;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    /*flex-grow: 1;*/
+    box-shadow: inset 0 0 0 1px black, inset 0 0 0 2px white, inset 0 0 0 3px black, 0 4px 6px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: white;
+
+}
+
+.card h2 {
+    font-size: 24px;
+}
+
+.card p {
+    text-transform: uppercase;
+}
+
+.is-black {
+    background-color: #000;
+}
+.is-red {
+    background-color: #ff0000;
+}
+.is-blue {
+    background-color: #0000ff;
+}
+.is-green {
+    background-color: #00ff00;
+}
+.is-fuchsia {
+    background-color: #ff00ff;
+}
+.is-white {
+    background-color: #fff;
+    color: black;
+}
+.is-yellow {
+    background-color: #ffff00;
+    color: black;
+}
+.is-purple {
+    background-color: #800080;
+}
+.is-maroon {
+    background-color: #800000;
+}
+.is-olive {
+    background-color: #808000;
+}
