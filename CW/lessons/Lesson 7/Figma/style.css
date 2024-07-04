@@ -52,6 +52,97 @@
     font-family: "KoHo", sans-serif;
     font-size: 30px;
 }
+/* ------------- center----------*/
+.center{
+    min-height: 100vh;
+    background-image: url(img/bg-light.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 105px 0 87px 0;
+}
+.center h2,
+.center p{
+    color: #000;
+    font-family: 'KoHo', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 949px;
+}
+.center iframe{
+    margin-bottom: 110px;
+}
+/*--------------bottom--------------*/
+.bottom{
+    min-height: 100vh;
+    background-image: url(img/bg-light.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 156px 0 142px 0;
+}
+.card{
+    min-width: 453.6px;
+    height: 700px;
+    flex-shrink: 0;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 22px 104px 22px;
+}
+.card h3{
+    color: #000;
+    font-family: 'KoHo', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card p{
+    color: #000;
+    font-family: 'KoHo', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.card button{
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 409px;
+    height: 76px;
+    flex-shrink: 0;
+    color: #6B6666;
+    font-family: 'KoHo', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.price{
+    margin-top: 62px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
