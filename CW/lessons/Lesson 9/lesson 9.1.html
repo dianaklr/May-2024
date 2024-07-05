@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        sup{
+            color: red;
+        }
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+        /*input{*/
+        /*    width: 200px;*/
+        /*    height: 30px;*/
+        /*    background-color: hotpink;*/
+        /*}*/
+        .inline{
+            display: inline-block;
+        }
+        textarea{
+            resize: none;
+            width: 100px;
+            height: 30px;
+        }
+        input[type="password"],
+        input[type="text"]
+        {
+            background-color: rosybrown;
+        }
+        input[type="password"]:focus
+        {
+           outline: none;
+            border: 2px solid #6b6b50;
+            border-radius: 4px;
+        }
+        input[type="password"]::placeholder{
+            color: lightblue;
+            font-family: 'Seravek', sans-serif;
+        }
+        input[type="password"]{
+            color: greenyellow;
+        }
+        input[type="reset"]:hover{
+            background-color: #584c7c;
+            outline: none;
+            border: 1px solid grey;
+            border-radius: 2px;
+            padding:  2px 7px;
+        }
+        input[type="reset"]:active{
+            background-color: pink;
+            outline: none;
+            border: 1px solid grey;
+            border-radius: 2px;
+            padding:  2px 7px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name"> Введіть своє ім'я </label>
+        <input type="text" name="username" id="name" placeholder="Name" required> <sup>*</sup>
+
+        <label for="email"> Введіть свій email </label>
+        <input type="email" name="email" id="email" placeholder="exaple@gmail.com">
+
+        <label for="password"> Введіть свій пароль </label>
+        <input type="password" name="password" id="password" placeholder="qwerty123">
+
+        <label for="age"> Введіть свій вік </label>
+        <input type="number" name="age" id="age" min="18" max="99">
+
+        <label> Стать: </label>
+        <label class="inline"> <input type="radio" name="gender" value="male"> Чоловіча </label>
+        <label class="inline"> <input type="radio" name="gender" value="female"> Жіноча </label>
+
+        <label>
+            <input type="checkbox" name="newsletter"> Підписатись на новини
+        </label>
+
+        <label> Країна </label>
+        <select>
+            <option value=" "> Оберіть країну </option>
+            <option value="ua"> Україна</option>
+            <option value="ua"> Україна</option>
+            <option value="ua"> Україна</option>
+            <option value="ua"> Україна</option>
+            <option value="ua"> Україна</option>
+        </select>
+
+        <label for="text"> Коментар </label>
+        <textarea id="text" ></textarea>
+
+        <br>
+        <input type="submit" value="Тиць">
+        <input type="reset" value="Тиць-2">
+    </form>
+
+</body>
+</html>
