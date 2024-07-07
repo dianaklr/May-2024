@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FBF6F3;
+}
+header {
+    min-height: 132px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+header nav a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+    font-size: 18px;
+}
+section {
+    min-height: calc(100vh - 132px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+    padding: 40px 0;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    line-height: 1.2;
+    gap: 43px;
+    width: 960px;
+}
+.card-content {
+    min-width: 336px;
+}
+.card img {
+    flex-grow: 1;
+    max-width: 580px;
+}
+.card h1 {
+    font-size: 48px;
+    font-weight: normal;
+    margin-bottom: 36px;
+}
+.card-sizes {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+.card-sizes button {
+    font-size: 13px;
+    line-height: inherit;
+    border: none;
+    background: none;
+    color: black;
+    cursor: pointer;
+}
+.card-sizes button:disabled {
+    color: #A19FA0;
+}
+.card-sizes button.is-active {
+    color: #B93536;
+}
+.card-price {
+    color: #AD0306;
+    margin-bottom: 36px;
+}
