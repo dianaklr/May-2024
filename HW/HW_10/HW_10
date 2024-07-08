@@ -1,0 +1,32 @@
+Оформи наступний текст у вигляді списку, та помісти його у div
+Зроби копію блоку 5 разів, кожному блоку задай різний class/id
+
+"
+General lists:
+List of 18th-century British children's literature titles
+List of 19th-century British children's literature titles
+List of American children's books
+List of Australian crime-related books and media
+List of anonymously published works
+List of autobiographies
+Lists of banned books
+List of books written by children or teenagers
+List of book titles taken from literature
+List of books by year of publication
+List of children's books made into feature films
+List of Christian novels
+"
+
+Під час стилізації використовуй ">" (дочірній селектор)
+
+Завдання 1. Для першого блоку: задай кожному парному елементу списку рожевий колір
+Завдання 2. Для другого блоку: задай кожному не парному елементу списку розмір 22px
+Завдання 3. Для третього блоку: задай кожному 2-му елементу, починаючи з 4-го елемента -  псевдоелемент :after та додай "!" до кожного з зазначених пунктів
+Завдання 4. Для четвертого блоку: Задай фіолетовий колір для останнього елемента списку
+Завдання 5.Для п'ятого блоку: Задай розмір 30px для перших літер списка, а також зміни колір на червоний
+Завдання 6. Додай довільний фавікон
+
+
+
+
+

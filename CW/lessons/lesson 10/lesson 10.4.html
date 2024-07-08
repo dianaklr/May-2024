@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+/*
+ 1000б - inline
+ 100б - id
+ 10б - class
+ 1б - tag
+ */
+    /*div{*/
+    /*    width: 300px;*/
+    /*    height: 300px;*/
+    /*    background-color: hotpink;*/
+    /*}*/
+    /*div.box{*/
+    /*    width: 300px;*/
+    /*    height: 300px;*/
+    /*    background-color: #73733c;*/
+    /*}*/
+    #gold{
+        background-color: gold;
+    }
+    section:nth-child(1)>p{
+        color: coral;
+    }
+
+    /*div.box h1+p{*/
+    /*    color: coral;*/
+    /*}*/
+
+    div.box h1~p{
+        color: coral;
+    }
+
+
+    </style>
+</head>
+<body>
+  <section>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+      <div>
+          <p>Lorem ipsum dolor sit.</p>
+      </div>
+  </section>
+  <section>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci aliquid aut corporis culpa earum, error
+          eveniet ex facere ipsum laboriosam libero nisi numquam, odio officiis perferendis perspiciatis ratione
+          suscipit?</p>
+      <div>
+          <p>Lorem ipsum dolor sit.</p>
+      </div>
+  </section>
+
+    <div class="box">
+        <h1>Lorem ipsum dolor.</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>
