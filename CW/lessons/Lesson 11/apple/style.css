@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    animation: left 0.4s ease-in 1;
+}
+header div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+header>div>span{
+    color: #F5F5F7;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 11.813px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 135.45% */
+    letter-spacing: -0.12px;
+}
+h1.services-h1{
+    color: #F5F5F7;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 87.75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96px; /* 109.402% */
+    letter-spacing: -1.344px;
+    width: 726px;
+    margin: 120px auto 24px auto;
+    animation: down 1s ease 1;
+}
+p.services-p{
+    color: #F5F5F7;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 21.563px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 129.855% */
+    letter-spacing: 0.216px;
+    width: 850px;
+    margin: 0 auto 100px auto;
+    animation: down 2s ease 1;
+}
+.learn-more{
+    height: 148px;
+    opacity: 0.999;
+    background: #161617;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    animation: down 3s ease 1;
+}
+.learn-more p{
+    color: #F5F5F7;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 19.195px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 145.869% */
+}
+.learn-more img{
+    animation: down 4s ease 1;
+}
+.learn-more button{
+    width: 134.81px;
+    height: 46px;
+    padding: 13px 22.8px 13px 23px;
+    border-radius: 980px;
+    border: 1px solid #FFF;
+    opacity: 0.999;
+    background-color: rgba(255, 255, 255, 0);
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px; /* 117.647% */
+    letter-spacing: -0.374px;
+}
+
+@keyframes left {
+    0%{
+        transform: translateX(340px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes down {
+    0%{
+       opacity: 0;
+        /*transform: translateY(150px);*/
+    }
+    90%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
