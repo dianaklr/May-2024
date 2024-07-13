@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>hw-9-2</title>
+
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            flex-direction: column;
+            font-family: -apple-system, "system-ui", sans-serif;
+            gap: 10px;
+            color: grey;
+        }
+        a {
+            text-decoration: none;
+            color: #3C5181;
+            will-change: color;
+            transition: color .2s;
+        }
+        .logo {
+            text-align: center;
+            display: block;
+            padding: 20px 0 30px;
+        }
+        .logo img {
+            max-width: 60%;
+            height: auto;
+        }
+        .section {
+            width: 470px;
+            display: flex;
+            border: lightgrey solid 1px;
+            border-radius: 2px;
+            background-color: #fff;
+            padding: 20px;
+        }
+        .auth {
+            flex-direction: column;
+        }
+        .auth p {
+            margin-bottom: 20px;
+        }
+        .form {
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            padding: 0 40px 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        .form a {
+            display: inline-flex;
+            gap: 0 6px;
+            align-items: center;
+        }
+        .form a svg {
+            fill: currentColor;
+        }
+        .form a + a {
+            margin-top: 6px;
+        }
+
+        .input {
+            width: 100%;
+            height: 48px;
+            border: 1px solid lightgrey;
+            border-radius: 4px;
+            padding: 0 12px;
+            font-weight: 500;
+            font-size: 16px;
+            text-overflow: ellipsis;
+            background-color: #FAFAFA;
+        }
+
+        .button {
+            width: 100%;
+            height: 48px;
+            border-radius: 8px;
+            margin: 10px 0;
+            color: white;
+            border: none;
+            background-color: #79B4F4;
+            font-size: 18px;
+            font-weight: bold;
+            will-change: background-color;
+            transition: background-color .2s;
+        }
+
+        .bottom {
+            color: black;
+
+            gap:5px;
+            font-size: 18px;
+            font-weight: 500;
+            justify-content: center;
+        }
+        .bottom a {
+            color: #3E95EF;
+        }
+        a:hover {
+            color: red;
+        }
+        .button:hover {
+            background-color: #59a1ef;
+
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="auth section">
+
+    <a href="#" class="logo"><img src="img/Instagram_logo.png" alt="Instagram"></a>
+
+    <form class="form">
+
+        <label for="username" hidden>username</label>
+        <input class="input" id="username" type="text" name="username" placeholder="Номер телефону, імʼя користувача або email">
+
+        <label for="password" hidden>password</label>
+        <input class="input" id="password" type="password" name="password" placeholder="Пароль">
+
+        <button class="button">Увійти</button>
+        <p>АБО</p>
+        <a href="#">
+            <svg width="20px" height="20px" viewBox="0 0 32 32">
+                    <path d="M29 0h-26c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h13v-14h-4v-4h4v-2c0-3.306 2.694-6 6-6h4v4h-4c-1.1 0-2 0.9-2 2v2h6l-1 4h-5v14h9c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3z"></path>
+            </svg>
+            <b>Увійти через Facebook</b></a>
+        <a href="#">Забули пароль?</a>
+
+    </form>
+</div>
+
+<div class="bottom section">
+    <p>Не маєте облікового запису?</p>
+    <a href="#">Зареєструйтеся</a>
+</div>
+
+</body>
+</html>
+
