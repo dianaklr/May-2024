@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            font-size: 110px;
+            animation: text 4s linear infinite alternate;
+            animation-delay: 2s;
+        }
+        @keyframes text {
+            0%{
+               color: cornflowerblue;
+                transform: scale(1.2);
+            }
+            33%{
+                color: #64ed6f;
+                text-decoration: underline;
+                text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+            }
+            66%{
+                color: #2a4446;
+                text-decoration: none;
+            }
+            100%{
+                color: #1f1c33;
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor.</p>
+
+</body>
+</html>

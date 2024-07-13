@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border-spacing: 0;
+        }
+        table{
+            /*border: 2px solid hotpink;*/
+            width: 50%;
+            /*border-spacing: 10px;*/
+        }
+        td, th{
+            border-right: 2px solid hotpink;
+            padding: 20px;
+            text-align: center;
+        }
+        td:last-child{
+            border-right: none;
+        }
+        thead{
+            background-color: rgba(172, 150, 192, 0.51);
+        }
+        tbody>tr:nth-child(even){
+            background-color: rgba(196, 184, 184, 0.84);
+        }
+        tfoot{
+            background-color: rgba(190, 159, 159, 0.45);
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr >
+                <th > lorem</th>
+                <th> lorem</th>
+                <th> lorem</th>
+                <th> lorem</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td colspan="4"> lorem</td>
+
+        </tr>
+        <tr>
+            <td rowspan="3"> lorem</td>
+            <td> lorem</td>
+            <td> lorem</td>
+            <td> lorem</td>
+        </tr>
+        <tr>
+
+            <td> lorem</td>
+            <td> lorem</td>
+            <td> lorem</td>
+        </tr>
+        <tr>
+       
+            <td> lorem</td>
+            <td> lorem</td>
+            <td> lorem</td>
+        </tr>
+        <tr>
+            <td> lorem</td>
+            <td> lorem</td>
+            <td> lorem</td>
+            <td> lorem</td>
+        </tr>
+        <tr>
+            <td> lorem</td>
+            <td> lorem</td>
+            <td> lorem</td>
+            <td> lorem</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td> lorem</td>
+                <td> lorem</td>
+                <td> lorem</td>
+                <td> lorem</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
