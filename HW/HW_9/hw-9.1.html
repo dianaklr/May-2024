@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw-9-1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+        }
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #3B898A;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 300;
+        }
+        .auth {
+            width: 440px;
+            display: flex;
+            flex-direction: column;
+            border: black solid 1px;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+        form {
+            display: flex;
+            gap: 22px;
+            padding: 15px 70px 80px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        h1 {
+            text-align: center;
+            background-color: #EAF3F3;
+            border-radius: 10px 10px 0 0;
+            font-weight: 300;
+            font-size: 24px;
+            padding: 20px;
+        }
+        .input {
+            width: 100%;
+            height: 32px;
+        }
+        .checkbox {
+            display: inline-flex;
+            gap: 0 8px;
+            align-items: normal;
+        }
+        .button {
+            border-radius: 10px;
+            padding: 0 20px;
+            border: solid 1px #808080;
+            background-color: #EAF3F3;
+            height: 24px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="auth">
+
+        <h1>Вхід в особистий кабінет</h1>
+
+        <form>
+
+            <label for="username" hidden>username</label>
+            <input class="input" id="username" type="text" name="username" placeholder="Логін або email">
+
+            <label for="password" hidden>password</label>
+            <input class="input" id="password" type="password" name="password" placeholder="Пароль">
+
+            <div class="checkbox">
+                <label for="rememberID">Запамятати мене</label>
+                <input type="checkbox" name="remember-me" id="rememberID">
+            </div>
+
+            <button class="button">Вхід</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
