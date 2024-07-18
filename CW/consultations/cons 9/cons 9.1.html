@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            animation: box 2s linear 10 alternate;
+        }
+        @keyframes box {
+            from {
+                transform: rotate(90deg) scale(1.5);
+            }
+            50%{
+                transform: rotate(90deg);
+            }
+            to{
+                transform: rotate(-90deg) scale(0.5);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+
+</body>
+</html>

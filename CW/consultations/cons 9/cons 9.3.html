@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div{
+            height: 600px;
+            background-color: darkseagreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            width: 450px;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        button:first-child{
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            font-weight: 600;
+        }
+        input[type="search"]{
+            width: 250px;
+            height: 30px;
+            padding-left: 10px;
+            border: none;
+        }
+        button:last-child{
+            border: none;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <button>
+                <img src="photo.svg" alt="">
+                Фото
+            </button>
+            <input type="search" name="search" placeholder="Пошук безкоштовних фото">
+            <button>
+                <img src="search.svg" alt="">
+            </button>
+
+        </form>
+    </div>
+</body>
+</html>
