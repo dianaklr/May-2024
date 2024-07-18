@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: #F7F6F4;
+        }
+        .w-1110{
+            width: 1110px;
+            margin: 0 auto;
+        }
+        .monthly-deals h2{
+            color: #333;
+            font-family: "Taviraj", serif;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 40px; /* 111.111% */
+            letter-spacing: 0.72px;
+            margin-bottom: 89px;
+        }
+        .flex-monthly-deals{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .card{
+            width: 255px;
+            height: 278px;
+            background: #FFF;
+            position: relative;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex-direction: column;
+        }
+        .card p{
+            text-align: left;
+            width: 221px;
+            padding: 0 0 33px 0;
+            color: #333;
+            font-family: "Taviraj", serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px;
+        }
+        .card img{
+            position: absolute;
+            top: -40px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <section class="w-1110 monthly-deals">
+        <h2>Monthly Deals</h2>
+        <div class="flex-monthly-deals">
+            <div class="card">
+                <img src="img.png" alt="">
+                <p>Singo Maple</p>
+            </div>
+
+            <div class="card">
+                <img src="img.png" alt="">
+                <p>Singo Maple</p>
+            </div>
+
+            <div class="card">
+                <img src="img-2.png" alt="">
+                <p>Singo Maple</p>
+            </div>
+
+            <div class="card">
+                <img src="img.png" alt="">
+                <p>Singo Maple</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
