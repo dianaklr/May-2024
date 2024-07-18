@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .content{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex-direction: column;
+            color: white;
+            text-shadow: 1px 1px 1px rgba(180, 179, 179, 0.58);
+            animation: content 3s ease-out 1;
+            background-color: rgba(255, 255, 255, 0.10);
+
+        }
+        .content p{
+            width: 60%;
+            text-align: center;
+        }
+        button{
+            width: 120px;
+            height: 50px;
+            border: none;
+            border-radius: 6px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        video{
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+            position: absolute;
+            z-index: -1;
+            top: 0;
+        }
+        @keyframes content {
+            from{
+                opacity: 0.8;
+                transform: scale(1.1);
+            }
+            to{
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor sit amet, labore laudantium nesciunt nostrum, odit officia qui quibusdam quisquam, ratione reiciendis rem repudiandae rerum similique sint tempore unde veniam vero voluptate voluptates. Accusamus blanditiis cumque debitis doloribus dolorum id ipsum iste laudantium nulla, quae quam quas quibusdam quo sed similique sunt unde voluptates? Adipisci aliquid laudantium molestiae nesciunt ratione saepe velit, voluptates! Assumenda delectus dolores ea illo iure iusto laudantium minus perspiciatis quam sapiente? Dolores, eos libero necessitatibus praesentium quae quaerat ut?</p>
+        <button><img src="media/search.svg" alt="">LOREM  </button>
+    </div>
+    <video src="media/video-bg.mp4" loop autoplay muted></video>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consectetur delectus dicta dolor est
+            expedita iure molestiae perferendis placeat repudiandae. Atque debitis ducimus ipsam maxime nostrum odio
+            odit vitae voluptatum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consectetur delectus dicta dolor est
+            expedita iure molestiae perferendis placeat repudiandae. Atque debitis ducimus ipsam maxime nostrum odio
+            odit vitae voluptatum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consectetur delectus dicta dolor est
+            expedita iure molestiae perferendis placeat repudiandae. Atque debitis ducimus ipsam maxime nostrum odio
+            odit vitae voluptatum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consectetur delectus dicta dolor est
+            expedita iure molestiae perferendis placeat repudiandae. Atque debitis ducimus ipsam maxime nostrum odio
+            odit vitae voluptatum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consectetur delectus dicta dolor est
+            expedita iure molestiae perferendis placeat repudiandae. Atque debitis ducimus ipsam maxime nostrum odio
+            odit vitae voluptatum.</p>
+    </div>
+
+    
+</body>
+</html>

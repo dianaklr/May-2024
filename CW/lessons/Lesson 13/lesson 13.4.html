@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            height: 100vh;
+        }
+        .card{
+            width: 200px;
+            height: 300px;
+            border: 2px solid darkgreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+        }
+        .sale{
+            width: 50px;
+            height: 30px;
+            background-color: grey;
+            position: absolute;
+            /*right: -10px;*/
+            top: -10px;
+        }
+        .bottom{
+            width: 50px;
+            height: 30px;
+            background-color: darkgreen;
+            position: absolute;
+            /*right: -10px;*/
+            bottom: -10px;
+            transform: rotate(90deg);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="sale"></div>
+        <p>Lorem ipsum dolor</p>
+        <p>Lorem ipsum dolor</p>
+        <p>Lorem ipsum dolor</p>
+        <div class="bottom"></div>
+    </div>
+
+    <div class="card">
+        <div class="sale"></div>
+        <p>Lorem ipsum dolor</p>
+        <p>Lorem ipsum dolor</p>
+        <p>Lorem ipsum dolor</p>
+    </div>
+
+    <div class="card">
+        <div class="sale"></div>
+        <p>Lorem ipsum dolor</p>
+        <p>Lorem ipsum dolor</p>
+        <p>Lorem ipsum dolor</p>
+    </div>
+</body>
+</html>
