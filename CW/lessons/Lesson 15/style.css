@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    height: 20vh;
+    background: #D9D9D9;
+}
+section{
+    height: 60vh;
+    width: 20vw;
+    background: #A9CAC7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+}
+main{
+    width: 60vw;
+    height: 60vh;
+    background: #6F8987;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main p{
+    font-size: 1.5em;
+}
+.flex{
+    display: flex;
+}
+.content{
+    display: none;
+    height: 15vh;
+    background-color: darkseagreen;
+}
+header p::after{
+    content: "Десктоп";
+}
+
