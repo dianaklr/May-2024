@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        main{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 20vw 60vw 20vw;
+            grid-template-rows: 20vh 60vh 20vh;
+            grid-gap: 2vh;
+        }
+        div{
+            border: 1px solid;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+        main div:nth-child(5){
+            background-color: darkseagreen;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div><span>1</span></div>
+    <div><span>2</span></div>
+    <div><span>3</span></div>
+    <div><span>4</span></div>
+    <div><span>5</span></div>
+    <div><span>6</span></div>
+    <div><span>7</span></div>
+    <div><span>8</span></div>
+    <div><span>9</span></div>
+</main>
+
+</body>
+</html>
