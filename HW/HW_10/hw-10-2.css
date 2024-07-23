@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E1E1E;
+    color: white;
+    padding: 0 50px;
+    font-family: 'Bowlby One', sans-serif;
+    line-height: 1.1;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+    transition: background-color 0.2s, transform .2s;
+    will-change: background-color, transform;
+    border: none;
+    font-size: 18px;
+    padding: 22px 33px;
+}
+button:active {
+    transform: translateY(4px);
+}
+
+h2 {
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+
+nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 30px;
+    padding: 36px 0;
+}
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+    padding: 21px 26px;
+    transition: background-color 0.2s;
+    will-change: background-color;
+}
+nav a:hover {
+    background-color: rgba(179, 160, 205, 0.5);
+}
+nav a:last-child {
+    background-color: #B3A0CD;
+    color: black;
+    animation: pulse 2s infinite;
+}
+
+
+.promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    gap: 30px;
+    padding: 38px 0;
+}
+h1 {
+    font-size: 108px;
+    text-align: center;
+    max-width: 1200px;
+}
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 98px 108px 85px;
+    background-color: #D1EF53;
+    border-radius: 20px;
+    color: black;
+}
+.about h2 {
+    max-width: 50%;
+}
+.about div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+}
+.about p {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    line-height: 1.4;
+}
+.about button {
+    box-shadow: inset 0 0 0 4px #1E1E1E, 8px 8px black;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 64px 40px;
+    padding-top: 64px;
+}
+.gallery img {
+    flex: 1;
+}
+.gallery img:not(:nth-child(3)) {
+    width: 50%;
+}
+.gallery img:nth-child(3) {
+    width: 100%;
+}
+
+
+.get-started {
+    padding: 64px 36px 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+}
+.get-started h2 {
+    text-align: center;
+    max-width: 900px;
+}
+.get-started button {
+    background-color: #D1EF53;
+}
+.get-started button:hover {
+    background-color: #bee12d;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+    }
+
+    70% {
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 30px rgba(255, 255, 255, 0);
+    }
+}
