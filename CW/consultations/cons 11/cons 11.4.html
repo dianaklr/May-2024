@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .grid{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 3fr 1fr;
+            grid-template-rows: 2fr repeat(6, 1fr) 2fr;
+            grid-template-areas:
+            'header header'
+            'content-1 spam-1'
+            'content-1 spam-1'
+            'content-2 spam-1'
+            'content-2 spam-2'
+            'content-3 spam-2'
+            'content-3 spam-2'
+            'footer footer';
+        }
+        header, article, aside, footer{
+            border: 1px solid;
+        }
+        header{
+            grid-area: header;
+        }
+        footer{
+            grid-area: footer;
+        }
+        .grid>article:nth-of-type(1){
+            grid-area: content-1 ;
+        }
+        .grid>article:nth-of-type(2){
+            grid-area: content-2 ;
+        }
+        .grid>article:nth-of-type(3){
+            grid-area: content-3 ;
+        }
+        .spam-top{
+            grid-area:spam-1;
+        }
+        .spam-bottom{
+            grid-area:spam-2;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <header></header>
+        <article class="article-top"></article>
+        <article class="article-center"></article>
+        <article class="article-bottom"></article>
+        <aside class="spam-top"></aside>
+        <aside class="spam-bottom"></aside>
+        <footer></footer>
+    </div>
+
+</body>
+</html>
