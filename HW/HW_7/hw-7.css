@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "KoHo", sans-serif;
+    color: black;
+    background: url(img/Rectangle.png) top center repeat-y;
+    background-size: 100%;
+}
+.top-section{
+    height: 100vh;
+    background-image: url(img/bg-section-top.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1{
+    width: 1058.4px;
+    height: 392.8px;
+    background: #FAF9F7;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+.box-1 div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+.box-1 div h2{
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-weight: 400;
+}
+.box-1 div p{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.box-1 button{
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: "KoHo", sans-serif;
+    font-size: 30px;
+}
+
+.mid-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20vh 0;
+}
+.box-2 {
+    display: flex;
+    flex-direction: column;
+    width: 930px;
+    font-size: 35px;
+    line-height: 1.2;
+    gap: 10vh;
+}
+.box-2 h3 {
+    font-weight: normal;
+    font-size: inherit;
+}
+.box-2 p {
+
+}
+.bottom-section {
+    min-height: 100vh;
+    padding: 20vh 0;
+}
+.box-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    padding: 0 50px;
+}
+.card {
+    width: calc((100% - 88px)/3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(83, 83, 83, 0.4);
+    padding: 25px 25px 100px;
+    gap: 24px;
+    font-size: 35px;
+}
+.card h4 {
+    font-weight: normal;
+    font-size: inherit;
+}
+.card p {
+    margin-bottom: 38px;
+    font-size: 80%;
+}
+.card img {
+    max-width: 100%;
+}
+.card button{
+    width: 100%;
+    height: 76px;
+    color: #6B6666;
+    font-size: inherit;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    border-radius: 5px;
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}

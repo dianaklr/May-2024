@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>frame-4</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #D9D9D9;
+            display: flex;
+            flex-wrap: wrap;
+            font-family: sans-serif;
+            font-size: 24px;
+        }
+        header, footer {
+            height: 22vh;
+            width: 100%;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            width: 73%;
+            height: 56vh;
+        }
+        main div {
+            height: calc(100% / 3);
+        }
+        aside {
+            width: 27%;
+            height: 56vh;
+            background-color: #C0BDBD;
+        }
+        aside div {
+            height: 50%;
+        }
+        .bg-brown {
+            background-color: #643030;
+        }
+        .bg-grey {
+            background-color: #776969;
+        }
+        .bg-maroon {
+            background-color: #441818;
+        }
+        .bg-hemp {
+            background-color: #937575;
+        }
+        .bg-dorado {
+            background-color: #644C4C;
+        }
+        .df {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .clr-white {
+            color: white;
+        }
+        .df:not(.clr-white) {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<header class="df">Header</header>
+<main>
+    <div class="bg-grey df clr-white">Content-1</div>
+    <div class="bg-brown df clr-white">Content-2</div>
+    <div class="bg-maroon df clr-white">Content-3</div>
+</main>
+<aside>
+    <div class="bg-hemp df clr-white">spam-1</div>
+    <div class="bg-dorado df clr-white">spam-2</div>
+</aside>
+<footer class="df">footer</footer>
+</body>
+</html>

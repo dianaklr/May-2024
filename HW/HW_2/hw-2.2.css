@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+span {
+    border: lightgray solid 1px;
+    background-color: lightgray;
+    padding: 0 3px;
+    width: 30px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+
+}
+div {
+    display: flex;
+    gap: 20px;
+}
+.red {
+    color: firebrick;
+}

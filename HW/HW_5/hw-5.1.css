@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Orbitron", sans-serif;
+}
+
+.active{
+    color: #365454;
+}
+/*-------------------header----------------------*/
+header{
+    font-family: "Orbitron", sans-serif;
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header h1 {
+    font-size: 24px;
+}
+header nav{
+    width: 60%;
+}
+header nav ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav ul a{
+    text-decoration: none;
+    color: #868181;
+    transition: 0.5s;
+    font-size: 18px;
+}
+header nav ul a:hover{
+    color: #051c13;
+    transition: 1s;
+}
+
+header div{
+    text-align: center;
+}
+/*--------------HOME------------------------------*/
+/*-------------------section----------------------*/
+.section-home{
+    height: 90vh;
+    /*background-image: url(img.jpg);*/
+    /*background-size: cover;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("img.jpg") bottom center no-repeat;
+    background-size: cover;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.first-text{
+    margin-top: 10vh;
+}
+.section-home p{
+    font-size: 20px;
+}
+.section-home h2{
+    font-size: 100px;
+    letter-spacing: 40px;
+    margin: 10px 0;
+    text-shadow: 1px 1px black;
+}
+.section-home button{
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: 1s;
+}
+.section-home button:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.section-contact {
+    text-align: center;
+}
+.section-contact-header{
+    background: url("img.jpg") center center no-repeat;
+    background-size: cover;
+    padding: 180px 0;
+}
+.section-contact h2 {
+    color: white;
+    font-size: 48px;
+    text-shadow: 1px 1px black;
+}
+.section-contact h3 {
+    padding: 60px 0 52px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+}
+.section-contact-info {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px 0;
+    margin: 0 auto 120px;
+    list-style-type: none;
+    text-align: left;
+}
+.section-contact-info li {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.section-contact-info p + p {
+    margin-top: 8px;
+}
+
+
+
+
+
+
+

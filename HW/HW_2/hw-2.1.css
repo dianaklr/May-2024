@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+a {
+    color: #36c
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+h1,h2 {
+    border-bottom: 1px solid grey;
+    font-family: 'Georgia', serif;
+}
+
